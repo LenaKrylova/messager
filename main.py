@@ -37,7 +37,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 @app.route('/status')
-def ststus():
+def status():
     return {
         'status': True,
         'time': datetime.now(),
