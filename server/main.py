@@ -46,7 +46,7 @@ def status():
 
 app.run()
 
-TEST
+TEST/
 
 #@app.route('/send')
 #def send_message():
